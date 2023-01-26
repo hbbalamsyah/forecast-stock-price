@@ -11,10 +11,12 @@ Alur Penelitian :
 # Problem statement
 Memprediksi adjusted closing price (adj close) harga saham BBTN menggunakan Riwayat harga saham BBTN selama 8 tahun dengan total 2171 data yang telah dilakukan pre processing.
  ![image](https://user-images.githubusercontent.com/84274028/214829455-6cc52ee8-19f7-4d48-bbfb-e12cb12ad6e9.png)
+
 Sebagai catatan, hari sabtu, minggu, dan tanggal merah tidak dimasukkan ke dataset karena bursa saham libur.
 
 Berikut merupakan plot diagram dari atribut ‘adj close’ (adjusted closing price) dari seluruh dataset
 ![image](https://user-images.githubusercontent.com/84274028/214829592-fee25dbf-7198-4586-95fd-0c6d9a5ae83a.png)
+
 Untuk mengevaluasi kinerja double exponential secara efektif, digunakan metrics Root Mean Square Error (RMSE), Mean Absolute Percentage Error (MAPE), dan metrics Mean Absolute Error (MAE). Untuk semua metrics, semakin rendah nilai metrics-nya, semakin bagus hasil prediksinya.
 
 # Training dan Validasi
@@ -26,4 +28,5 @@ Pada penerapan metode double exponential smoothing pada dataset ini, saya memvar
 
 Dibawah ini Hasil Akhir dari nilai RMSE, MAPE, dan MAE, serta nilai ⍺ dan β yang telah disesuaikan menggunakan validasi set masing-masing.
 ![image](https://user-images.githubusercontent.com/84274028/214830266-a055554e-052e-47dd-9a7c-29976c1242b4.png)
+
 Didapat MAPE MAE terkecil pada pengujian ke 10 yaitu, MAPE sebesar 1.55% dan MAE sebesar 24.19
