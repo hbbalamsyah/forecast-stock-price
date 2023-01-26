@@ -21,6 +21,7 @@ Untuk mengevaluasi kinerja double exponential secara efektif, digunakan metrics 
 
 # Training dan Validasi
 Untuk melakukan prediksi, dibutuhkan data training dan validasi. Di penelitian ini akan menggunakan data 3 tahun sebagai kumpulan data, yang setara dengan 756 hari karena ada sekitar 252 hari perdagangan dalam setahun. Selanjutnya digunakan data 1 tahun berikutnya untuk melakukan validasi sebanyak 252 hari. Dengan kata lain, dibutuhkan 756 + 252 = 1008 hari data untuk training dan validasi model. Model akan di latih menggunakan train set serta hyperparameter ⍺ (alpha) dan β (beta).
+
 ![image](https://user-images.githubusercontent.com/84274028/214829855-9a85d7c7-9a2e-49d0-a4d6-5d0686fb8fb2.png)
 
 # Penerapan Algoritma
